@@ -1,0 +1,30 @@
+<app-header (onSearch)="onKeyup($event)"></app-header>
+
+<section class="wrapper">
+    <div class="container mt-5">
+        <div class="row">
+            <div *ngFor="let hero of filteredHerosData" class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                <app-card [name]="hero?.name" [description]="hero?.description"
+                    [picture_url]="hero?.picture_url"
+                    [force_level]="hero?.force_level" [defense_level]="hero?.defense_level"
+                    [main_skill]="hero?.main_skill">
+                    <ng-container footer>
+                        <button class="btn btn-edit" (click)="onEdit(hero?.id)">Editar</button>
+                        <button class="btn btn-delete" (click)="onDelete(hero?.id)">Eliminar</button>
+                    </ng-container>
+                </app-card>
+            </div>
+        </div>
+    </div>
+</section>
+
+@if (deleteModalIsOpen) {
+    <app-modal>
+        <ng-container title>Eliminar</ng-container>
+        <ng-container body>¿Desea eliminar el superhéroe?</ng-container>
+        <ng-container footer>
+            <button type="button" class="btn btn-secondary" (click)="closeModal()">Cancelar </button>
+            <button type="button" class="btn btn-primary" (click)="closeModal(true)">Sí, eliminar</button>
+        </ng-container>
+    </app-modal>
+}

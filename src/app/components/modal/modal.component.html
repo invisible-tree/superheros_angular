@@ -1,0 +1,19 @@
+<div class="modal fade show" id="modal" tabindex="-1" aria-labelledby="modal"
+    style="display: block;" aria-modal="true" role="dialog">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">
+                    <ng-content select="[title]"></ng-content>
+                </h5>
+                <button type="button" class="btn-close" aria-label="Close" (click)="closeModal()"></button>
+            </div>
+            <div class="modal-body">
+                <ng-content select="[body]"></ng-content>
+            </div>
+            <div class="modal-footer">
+                <ng-content select="[footer]"></ng-content>
+            </div>
+        </div>
+    </div>
+</div>

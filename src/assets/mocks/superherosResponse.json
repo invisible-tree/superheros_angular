@@ -1,0 +1,138 @@
+[
+    {
+      "id": 1,
+      "name": "Superman",
+      "description": "El último hijo de Krypton, posee superpoderes como la fuerza sobrehumana, la velocidad, la visión de rayos X y la capacidad de volar.",
+      "picture_url": "/assets/img/superman.jpg",
+      "force_level": 95,
+      "defense_level": 90,
+      "main_skill": "Visión de rayos X"
+    },
+    {
+      "id": 2,
+      "name": "Batman",
+      "description": "El Caballero de la Noche, es un maestro en artes marciales y utiliza su inteligencia y tecnología avanzada para combatir el crimen en Gotham City.",
+      "picture_url": "/assets/img/batman.jpeg",
+      "force_level": 85,
+      "defense_level": 95,
+      "main_skill": "Inteligencia estratégica"
+    },
+    {
+      "id": 3,
+      "name": "Wonder Woman",
+      "description": "Princesa amazona y semidiosa, posee fuerza sobrehumana, resistencia y habilidades de combate excepcionales.",
+      "picture_url": "/assets/img/wonderwoman.jpg",
+      "force_level": 90,
+      "defense_level": 85,
+      "main_skill": "Lazo de la verdad"
+    },
+    {
+      "id": 4,
+      "name": "Spider-Man",
+      "description": "Peter Parker adquirió habilidades arácnidas después de ser mordido por una araña radiactiva, incluida la capacidad de trepar paredes y un sentido arácnido.",
+      "picture_url": "/assets/img/spiderman.jpg",
+      "force_level": 80,
+      "defense_level": 80,
+      "main_skill": "Sentido arácnido"
+    },
+    {
+      "id": 5,
+      "name": "Iron Man",
+      "description": "Tony Stark es un genio, multimillonario, playboy y filántropo que utiliza un traje de alta tecnología para combatir el mal como Iron Man.",
+      "picture_url": "/assets/img/ironman.jpg",
+      "force_level": 85,
+      "defense_level": 90,
+      "main_skill": "Tecnología avanzada"
+    },
+    {
+      "id": 6,
+      "name": "Thor",
+      "description": "Dios del trueno y príncipe de Asgard, posee la capacidad de controlar el clima y es un experto en el combate cuerpo a cuerpo con su martillo, Mjolnir.",
+      "picture_url": "/assets/img/thor.jpg",
+      "force_level": 95,
+      "defense_level": 85,
+      "main_skill": "Control del clima"
+    },
+    {
+      "id": 7,
+      "name": "Captain America",
+      "description": "Steve Rogers, un super soldado con habilidades mejoradas, lidera a los Vengadores con su escudo indestructible y su valentía inquebrantable.",
+      "picture_url": "/assets/img/capitanamerica.jpg",
+      "force_level": 90,
+      "defense_level": 95,
+      "main_skill": "Escudo indestructible"
+    },
+    {
+      "id": 8,
+      "name": "Hulk",
+      "description": "Bruce Banner, un científico expuesto a la radiación gamma, se transforma en Hulk, una criatura verde gigante con una fuerza descomunal.",
+      "picture_url": "/assets/img/hulk.jpg",
+      "force_level": 100,
+      "defense_level": 80,
+      "main_skill": "Fuerza descomunal"
+    },
+    {
+      "id": 9,
+      "name": "Black Widow",
+      "description": "Natasha Romanoff, una espía y asesina altamente entrenada, es una miembro valiosa de los Vengadores con habilidades en combate cuerpo a cuerpo y en espionaje.",
+      "picture_url": "/assets/img/blackwidow.jpg",
+      "force_level": 80,
+      "defense_level": 85,
+      "main_skill": "Habilidades de espionaje"
+    },
+    {
+      "id": 10,
+      "name": "Doctor Strange",
+      "description": "Stephen Strange, un neurocirujano que se convierte en el Hechicero Supremo, domina las artes místicas y protege el universo de amenazas místicas.",
+      "picture_url": "/assets/img/doctorstrange.jpg",
+      "force_level": 85,
+      "defense_level": 85,
+      "main_skill": "Artes místicas"
+    },
+    {
+      "id": 11,
+      "name": "Flash",
+      "description": "Barry Allen, un científico forense, se convierte en el Velocista Escarlata después de ser alcanzado por un rayo, lo que le otorga la capacidad de moverse a una velocidad sobrehumana.",
+      "picture_url": "/assets/img/flash.jpg",
+      "force_level": 80,
+      "defense_level": 80,
+      "main_skill": "Velocidad sobrehumana"
+    },
+    {
+      "id": 12,
+      "name": "Green Lantern",
+      "description": "Hal Jordan, un piloto de pruebas, recibe un anillo de poder que le otorga la capacidad de crear manifestaciones de luz sólida y proteger el universo como Green Lantern.",
+      "picture_url": "/assets/img/greenlantern.jpg",
+      "force_level": 85,
+      "defense_level": 85,
+      "main_skill": "Anillo de poder"
+    },
+    {
+      "id": 13,
+      "name": "Aquaman",
+      "description": "Rey de la Atlántida y poseedor de la fuerza y la velocidad de los océanos, Aquaman protege tanto los mares como la superficie de la Tierra.",
+      "picture_url": "/assets/img/aquaman.jpg",
+      "force_level": 90,
+      "defense_level": 90,
+      "main_skill": "Control de los océanos"
+    },
+    {
+      "id": 14,
+      "name": "Wolverine",
+      "description": "Logan, un mutante con garras retractiles y poder de regeneración, lucha contra la injusticia como un miembro de los X-Men.",
+      "picture_url": "/assets/img/wolverine.jpeg",
+      "force_level": 85,
+      "defense_level": 85,
+      "main_skill": "Regeneración"
+    },
+    {
+      "id": 15,
+      "name": "Captain Marvel",
+      "description": "Carol Danvers, una piloto de la Fuerza Aérea, adquiere habilidades extraterrestres y se convierte en la poderosa Captain Marvel, defensora del universo.",
+      "picture_url": "/assets/img/captainmarvel.jpg",
+      "force_level": 95,
+      "defense_level": 90,
+      "main_skill": "Poder cósmico"
+    }
+  ]
+  

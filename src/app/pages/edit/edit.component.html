@@ -1,0 +1,51 @@
+<app-header [showButtons]="false"></app-header>
+
+<div class="container">
+    <div class="row white">
+        <form [formGroup]="form" (ngSubmit)="onSubmit()" class="needs-validation" novalidate>
+            <div class="mb-3">
+              <label for="name" class="form-label">Nombre:</label>
+              <input type="text" id="name" class="form-control" formControlName="name" required>
+              <div class="invalid-feedback">
+                Por favor ingresa un nombre.
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="description" class="form-label">Descripción:</label>
+              <textarea id="description" class="form-control" formControlName="description" required></textarea>
+              <div class="invalid-feedback">
+                Por favor ingresa una descripción.
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="picture_url" class="form-label">URL de la foto:</label>
+              <input type="text" id="picture_url" class="form-control" formControlName="picture_url" required>
+              <div class="invalid-feedback">
+                Por favor ingresa una URL válida.
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="force_level" class="form-label">Nivel de Fuerza:</label>
+              <input type="number" id="force_level" class="form-control" formControlName="force_level" min="0" max="100" required>
+              <div class="invalid-feedback">
+                Por favor ingresa un nivel de fuerza válido entre 0 y 100.
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="defense_level" class="form-label">Nivel de Defensa:</label>
+              <input type="number" id="defense_level" class="form-control" formControlName="defense_level" min="0" max="100" required>
+              <div class="invalid-feedback">
+                Por favor ingresa un nivel de defensa válido entre 0 y 100.
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="main_skill" class="form-label">Habilidad Principal:</label>
+              <input type="text" id="main_skill" class="form-control" formControlName="main_skill" required>
+              <div class="invalid-feedback">
+                Por favor ingresa una habilidad principal.
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary" [disabled]="form.invalid">Crear Superhéroe</button>
+          </form>
+    </div>
+</div>

@@ -1,0 +1,12 @@
+<nav class="navbar header">
+  <div class="container-fluid">
+    <h1><a routerLink="/">Superheros</a></h1>
+    @if (showButtons) {
+      <div class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Buscar superhéroe" aria-label="Buscar superhéroe"
+          #search (keyup)="onKeyup(search.value)">
+      </div>
+      <a routerLink="/add"><button class="btn">Añadir superhéroe</button></a>
+    }
+  </div>
+</nav>
